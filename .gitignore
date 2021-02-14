@@ -1,6 +1,7 @@
 
 # Data
-data
+data/geological_similarity
+data/raw/geoimage/geological_similarity
 
 # Logs
 training/logs

@@ -12,10 +12,13 @@ pydocstyle
 pylint
 pytest
 pyyaml
+requests
 tensorflow
+toml
 tornado
 safety
 scikit-learn
 scipy
 pillow
+tqdm
 wandb
