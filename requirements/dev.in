@@ -15,6 +15,7 @@ pytest
 pyyaml
 requests
 tensorflow
+tensorflow_datasets
 toml
 tornado
 safety

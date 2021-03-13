@@ -25,5 +25,4 @@ class TqdmUpTo(tqdm):
 def download_url(url, filename):
     """Download a file from url to filename, with a progress bar."""
     with TqdmUpTo(unit="B", unit_scale=True, unit_divisor=1024, miniters=1) as t:
-        print('adoado')
         urlretrieve(url, filename, reporthook=t.update_to, data=None)  # nosec
